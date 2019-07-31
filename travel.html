@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="reply-to" content="sz.k988@interia.pl,szymon.kotarba988@gmail.com"/>
+    <meta http-equiv="creation-date" content="21-01-2019"/>
+    <meta name="author" content="Szymon Kotarba"/>
+    <meta name="keywords" content="nowe technologie, technologie, gry, bezpieczeństwo, biznes, podróżowanie"/>
+    <meta name="description" content="WebTech strona informująca milionów Polaków o najnowszych wydarzeniach ze strony technologii, gier, bezpieczeństwa, nauki, biznesu oraz podróżowania."/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWeb | Rozszerz swoje możliwości</title>
+    <link rel="Stylesheet" type="text/css" href="style.css"/>
+    <link rel="Stylesheet" type="text/css" href="media.css"/>
+    <link rel="Stylesheet" type="text/css" href="css/fontello.css"/>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/page.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/effect.js"></script>
+    <link rel="Shortcut icon" href="img/icon-logo.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet"/>
+</head>
+<body>
+    <div id="page">
+        <div id="wrapper">
+            <div id="nav-secondary" class="part-slim-nav">
+                <header class="full">
+                    <div class="part">
+                        <div class="header-wrapper slim-cnt">
+                            <div class="header-cnt">
+                                <div class="banner">
+                                    <a href="index.html" rel="home">
+                                        <img src="img/logo.png" alt="Logo" width="150px"/> 
+                                    </a>
+                                </div>
+                                <div class="site-navigation">
+                                    <nav>
+                                        <ul class="navigation">
+                                            <li class="button"><a href="index.html" rel="home">Home</a></li>
+                                            <li class="button"><a href="tech.html" rel="tech">Tech</a></li>
+                                            <li class="button"><a href="game.html" rel="game">Gry</a></li>
+                                            <li class="button"><a href="security.html" rel="security">Bezpieczeństwo</a></li>
+                                            <li class="button"><a href="science.html" rel="science">Nauka</a></li>
+                                            <li class="button"><a href="buisness.html" rel="buisness">Biznes</a></li>
+                                            <li class="button"><a href="travel.html" rel="travel">Podróżowanie</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div id="nav-main">
+                <header class="full">
+                    <div class="part">
+                        <div class="header-wrapper">
+                            <div class="header-cnt">
+                                <div class="banner">
+                                    <a href="index.html" rel="home">
+                                        <img src="img/logo.png" alt="Logo" width="200px"/> 
+                                    </a>
+                                </div>
+                                <div class="site-navigation">
+                                    <nav>
+                                        <ul class="navigation">
+                                            <li class="button"><a href="index.html" rel="home">Home</a></li>
+                                            <li class="button"><a href="tech.html" rel="tech">Tech</a></li>
+                                            <li class="button"><a href="game.html" rel="game">Gry</a></li>
+                                            <li class="button"><a href="security.html" rel="security">Bezpieczeństwo</a></li>
+                                            <li class="button"><a href="science.html" rel="science">Nauka</a></li>
+                                            <li class="button"><a href="buisness.html" rel="buisness">Biznes</a></li>
+                                            <li class="button"><a href="travel.html" rel="travel">Podróżowanie</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div id="header-icon-area">
+                                    <div id="header-icon-search">
+                                        <i class="icon-search transition-color"></i>
+                                        <div id="search-wrapper">
+                                            <form action="" method="POST" name="myform">
+                                                <div class="input-group stylish-input-group">
+                                                    <input type="text" name="search" placeholder="Szukaj tutaj..." autocomplete="off">
+                                                    <div class="search-close">
+                                                        <i class="icon-cancel"></i>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>		
+                                    <div id="header-icon-seperator">|</div>
+                                    <div id="header-icon-share">
+                                        <i class="icon-share"></i>
+                                        <div id="social-media-tophead-wapper">
+                                            <div id="arrow-cnt">
+                                                <div class="tipsy-arrow tipsy-arrow-n"></div>
+                                            </div>
+                                            <div id="tophead-social-wrapper">
+                                                <ul class="bg-nav tophead-social">
+                                                    <li><a target="_blank" href="https://www.facebook.com/" class="facebook-color-social border"><i class="icon-facebook"></i></a></li>
+                                                    <li><a target="_blank" href="https://plus.google.com" class="gplus-color-social border"><i class="icon-gplus"></i></a></li>
+                                                    <li><a target="_blank" href="https://twitter.com/" class="twitter-color-social border"><i class="icon-twitter"></i></a></li>
+                                                    <li><a target="_blank" href="https://www.instagram.com/" class="instagram-color-social border"><i class="icon-instagram"></i></a></li>
+                                                    <li><a target="_blank" href="https://youtube.com" class="youtube-color-social"><i class="icon-youtube"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>	
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div id="second-part">
+                <div id="container">
+                    <ul id="news-info-list">
+                        <li><i class="icon-calendar"></i><span id="current_date"></span></li>
+                        <li><i class="icon-clock"></i>Ostatnia aktualizacja: Lut 08, 2019 | 20:00</li>
+                        <li><i class="icon-map"></i>Polska</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="header-category">
+                <span id="cnt-header-category">
+                    <span>Podróżowanie</span>
+                    <span><a href="index.html">Home</a><i class="icon-right-open-mini"></i>Podróżowanie</span>
+                </span>
+            </div>
+            <div class="content-wrapper" class="content-wrapper-whole">
+                <div class="cnt-category-article">
+                    <div class="left-cnt-wrapper">
+                        <div class="category-article-cnt">
+                            <section class="all">
+                                <div class="category-article-wrapper">
+                                    <div id="main-rest-category">
+                                        <div class="post-wrap-category">
+                                            <article class="all">
+                                                <div class="article">
+                                                    <div class="cnt-outher-article-main">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher article-wrapper-img">
+                                                            <img src="img/5405_usa-new_yo.jpg" class="article-img"/>
+                                                        </div>
+                                                        <div class="subtitle-article hudge-space">
+                                                            <div class="category-article">
+                                                                <a href="" rel="game-article" class="travel-category">
+                                                                    Podróżowanie
+                                                                </a>
+                                                            </div>
+                                                            <h3 class="title-article-hudge">
+                                                                Stany Zjednoczone niczym Antarktyda. Hipnotyzujące zdjęcia
+                                                            </h3>
+                                                            <div class="author-date-cnt-article">
+                                                                <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                            </div>
+                                                        </div>
+                                                    </div>   
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <div class="rest-box-article-cnt flex-row">
+                                        <div class="main-article-tech space-article">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/alex-king-702976-unsplash.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Rozgrzane do czerwoności serce Australii</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/photo-1510637858650-c3be04731622.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Pierwszy raz pod wodą, czyli nurkowanie wcale nie musi być takie straszne!</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <div class="rest-box-article-cnt flex-row">
+                                        <div class="main-article-tech space-article">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/photo-1519331582073-283f1a211a3e.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Vancouver – miasto na granicy gór i oceanu</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/najpiekniejsze-podwodne-zdj.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Oto najpiękniejsze podwodne zdjęcia</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <div id="main-rest-category">
+                                        <div class="post-wrap-category">
+                                            <article class="all">
+                                                <div class="article">
+                                                    <div class="cnt-outher-article-main">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher article-wrapper-img">
+                                                            <img src="img/malcolm-lightbody-522364-unsplash.jpg" class="article-img"/>
+                                                        </div>
+                                                        <div class="subtitle-article hudge-space">
+                                                            <div class="category-article">
+                                                                <a href="" rel="game-article" class="travel-category">
+                                                                    Podróżowanie
+                                                                </a>
+                                                            </div>
+                                                            <h3 class="title-article-hudge">
+                                                               Szwedzki raj na ziemi. Skański szlak Skaneleden
+                                                            </h3>
+                                                            <div class="author-date-cnt-article">
+                                                                <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                            </div>
+                                                        </div>
+                                                    </div>   
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="right-cnt-wrapper">
+                        <div id="new-article-collateral">
+                            <section class="all">
+                               <div class="article-title new-title">
+                                    <h2>
+                                        <a href="" rel=""><span class="icon-fire"></span> Najnowsze</a>
+                                        <span class="titleinner"></span>
+                                    </h2>
+                                </div>
+                                <div id="new-article-wrapper-collateral">
+                                    <div id="outher-new-article-collateral">
+                                        <div class="post-wrap-new-outher">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/826-02349897en_Masterfile.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="travel-category">
+                                                            Podróżowanie
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Wraca na Arktykę od 25 lat. "To jest szalenie delikatny ekosystem"</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-new-outher">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/szczyrk-wyciag.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="travel-category">
+                                                            Podróżowanie
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Szczyrk po 30 latach znowu zimową stolicą Polski</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-new-outher">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/ODc1MTE0YCUCUztnakttMEELbz0sEmNmFhN3dmp_YHJXBTVgcgdgIE1GPT0oV2E0Dx58ZnUHenxSAHxkaB1-cVQIdW10CXd2TEIuJiBVIWoJQSp2OA==.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="travel-category">
+                                                            Podróżowanie
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Odkrycie na Antarktydzie. Okazało się fikcją</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-new-outher">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/sluzice.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="travel-category">
+                                                            Podróżowanie
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Śluzice. Jedne z najciekawszych na świecie stworzeń morskichpołączenie</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div id="popular-article-collateral">
+                            <section class="all">
+                                <div class="article-title popular-title">
+                                    <h2>
+                                        <a href="" rel=""><span class="icon-signal-1"></span> Popularne</a>
+                                        <span class="titleinner"></span>
+                                    </h2>
+                                </div>
+                                <div id="popular-article-wrapper-collateral">
+                                    <div id="outher-popular-article-collateral">
+                                        <div class="post-wrap-popular-outher-collateral">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/ODUyMDc4YCU0Gzt3TE9tMHdDby0KFmNmIFt3Zkx7YHJhTTVwUQxgIHsOPS0OU2E0OVZ6clUFeXdtTXxpTgx8cmVIeXJWB2AwJxg7IQ8ZPyw6DSIjEVU_LDALYCsFGj8qMlsw.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="travel-category">
+                                                            Podróżowanie
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Najlepsze zdjęcia 2018 zostały wybrane</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-popular-outher-collateral">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/ODMxNDgyYCUsGjh3SAJtMG9CbC0OW2NmOFp0Zkg2YHJ5TDZwVElgIGMPPi0KHmE0IVd_c1RNdnx4S3p0SkB9dXpOenZSTWA3LgorIQlXJTQqWjM=.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="travel-category">
+                                                            Podróżowanie
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Ranking państw, do których lepiej nie podróżować samotnie. </a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-popular-outher-collateral">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/ODUyMDc4YCU0Gzt3TE9tMHdDby0KFmNmIFt3Zkx7YHJhTTV3WwFgIHsOPS0OU2E0OVZ7dFEBfnJmQHVpTgd4cW1KdXRbDGAnPRAjPU1ePyN3BA==.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="travel-category">
+                                                            Podróżowanie
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Pomysły POT-u na promocję naszego kraju</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-popular-outher-collateral">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/ODUyMDc4YCU0Gzt3TE9tMHdDby0KFmNmIFt3Zkx7YHJhTTV3VQZgIHsOPS0OU2E0OVZ8cVQBe3ZiTHl9Thl-dmJIeXRSDX99eg40NxNVYS4lHm85.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="travel-category">
+                                                            Podróżowanie
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Niezwykła wyspa na Pacyfiku. Pomoże zrozumieć procesy na Marsie</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div id="aside-cnt" class="no-sticky">
+                            <aside class="all flex-column">
+                                <div id="social-media-cnt" class="article-title aside-title">
+                                    <h2>
+                                        <a href="" rel=""><span class="icon-share"></span> Social media</a>
+                                        <span class="titleinner"></span>
+                                    </h2>
+                                </div>
+                                <div id="social-media-follow-cnt">
+                                    <div class="social-media facebook-color">
+                                        <a href="https://www.facebook.com/" target="_blank" rel="facebook">
+                                            <div class="sh-widget-connected-title">
+						                        <i class="icon-facebook"></i><span class="description-follow">Like</span>
+                                            </div>
+                                            <div class="sh-widget-connected-count">
+						                        <span>5967</span>
+					                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="social-media gplus-color">
+                                        <a href="https://plus.google.com" rel="gplus">
+                                            <div class="sh-widget-connected-title">
+						                        <i class="icon-gplus"></i><span class="description-follow">Follow</span>
+                                            </div>
+                                            <div class="sh-widget-connected-count">
+						                        <span>512</span>
+					                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="social-media twitter-color">
+                                        <a href="https://twitter.com/" rel="twitter">
+                                            <div class="sh-widget-connected-title">
+						                        <i class="icon-twitter"></i><span class="description-follow">Follow</span>
+                                            </div>
+                                            <div class="sh-widget-connected-count">
+						                        <span>1024</span>
+					                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="social-media instagram-color">
+                                        <a href="https://www.instagram.com/" rel="instargram">
+                                            <div class="sh-widget-connected-title">
+						                        <i class="icon-instagram"></i><span class="description-follow">Follow</span>
+                                            </div>
+                                            <div class="sh-widget-connected-count">
+						                        <span>2289</span>
+					                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="social-media youtube-color">
+                                        <a href="https://youtube.com" rel="youtube">
+                                            <div class="sh-widget-connected-title">
+						                        <i class="icon-youtube"></i><span class="description-follow">Subscribe</span>
+                                            </div>
+                                            <div class="sh-widget-connected-count">
+						                        <span>10k</span>
+					                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content-wrapper-second">
+                <div class="cnt-category-article">
+                    <div class="cnt-category-article">
+                        <div class="category-article-cnt">
+                            <section class="all flex-column-center">
+                                <div class="category-article-wrapper">
+                                    <div class="rest-box-article-cnt flex-row">
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/Gozo-m-Śródziemne.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Gozo - niedoceniona perełka Morza Śródziemnego</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/ferie-1937.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Ile kosztowały ferie w Zakopanem w 1937 roku?</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/MjM0MzQzYgssUjtJfgFvHm8KbxM4WGFIOBJ3WH41Ylx5BDVJZk1iDmNHPRM8HWMaIR91S2VOf155Bn9XfEt4U3oGek5oT31FIFU_FTRUJxoqEjA=.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Potężne królestwo upadło z jednego powodu. Badacze poznali prawdę</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <div class="rest-box-article-cnt flex-row">
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/ODMxNDgyYCUsGjh3SAJtMG9CbC0OW2NmOFp0Zkg2YHJ5TDZwVkFgIGMPPi0KHmE0IVd2c19BenJ_QH9pSkh4fX9AeHRUSH1rOhEiLw5XJTQqWjM=.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Przyrodnik z Puszczy Białowieskiej: "Denerwuje mnie zakłamanie myśliwych"</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/ŚDM-Panama.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Światowe Dni Młodzieży w Panamie: pierwsze dni Polaków</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/ODMxNDgyYCUsGjh3SAJtMG9CbC0OW2NmOFp0Zkg2YHJ5TDZ3UUtgIGMPPi0KHmE0IVd_c1FKfnZ9SHdzSlR2d39PfnBSS3xrIBkiMAZXJTQqWjM=.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Malta przyciąga coraz więcej turystów. Kolejne rekordy pobite!</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="show-more">Pokaż więcej</div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="all flex-column center-footer-cnt">
+                <div id="footer-cnt">
+                    <div id="left-footer-cnt">
+                        <div id="logo-fotter-wrapper">
+                            <a href="index.html" rel="home">
+                                <img src="img/logo.png" alt="Logo" width="320px"/> 
+                            </a>
+                        </div>
+                        <div id="footer-bottom-social">
+                            <ul class="tophead-social">
+                                <li><a target="_blank" href="https://www.facebook.com/" class="facebook-color-social"><i class="icon-facebook"></i></a></li>
+                                <li><a target="_blank" href="https://plus.google.com" class="gplus-color-social"><i class="icon-gplus"></i></a></li>
+                                <li><a target="_blank" href="https://twitter.com/" class="twitter-color-social"><i class="icon-twitter"></i></a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/" class="instagram-color-social"><i class="icon-instagram"></i></a></li>
+                                <li><a target="_blank" href="https://youtube.com" class="youtube-color-social"><i class="icon-youtube"></i></a></li>
+                            </ul>
+                            <p id="copyright">Strona zaprojektowana i opracowana przez <span id="author">Szymon Kotarba</span></p>
+						</div>
+                    </div>
+                    <div id="center-footer-cnt">
+                        <h4 class="widget-title"><span class="inner-arrow">Kategorie</span></h4>
+                        <div class="nav-category">
+                            <ul class="aside-navigator-cetegory margin-cnt">
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Technologie</span><span class="number-artical">(15)</span></a></li>
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Gry</span><span class="number-artical">(12)</span></a></li>
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Bezpieczeństwo</span><span class="number-artical">(10)</span></a></li>
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Nauka</span><span class="number-artical">(8)</span></a></li>
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Biznes</span><span class="number-artical">(5)</span></a></li>
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Podróżowanie</span><span class="number-artical">(6)</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="right-footer-cnt">
+                        <h4 class="widget-title"><span class="inner-arrow">Newsletter</span></h4>
+                        <p id="newsletter">Zapisz się do naszego newslettera, aby być na bieżąco</p>
+                        <i class="icon-mail-alt"></i>
+                        <div class="input-group stylish-input-group">
+                            <form action="" method="POST" name="myform" class="form-wrapper">
+                                <input type="email" name="email" placeholder="Twój adres email" required>
+                                <span class="input-group-addon">
+                                    <button type="submit">
+                                    <i class="icon-paper-plane"></i>
+                                    </button>  
+                                </span>
+                            </form>
+                        </div>
+                        <p id="newsletter-subtitle">* Dołącz do listy Newslettera, by na e-mail otrzymywać starannie wyselekcjonowane materiały informacyjne.</p>
+                    </div>
+                </div>
+                <div id="description-footer-copyright">
+                    <p>© COPYRIGHT 2018, WSZYSTKIE PRAWA ZASTRZEŻONE</p>
+                </div>
+            </footer>
+        </div>
+        <div class="sh-side-demos">
+            <div class="sh-side-demos-buttons">
+                <span class="sh-side-options-item sh-accent-color">
+                    <i class="icon-news"></i>
+                    <div class="sh-side-options-hover">Ciemny motyw</div>
+                </span>
+                <a target="blank" href="" class="sh-side-options-item sh-accent-color">
+                    <i class="icon-wechat"></i>
+                    <div class="sh-side-options-hover">Pytanie / Odpowiedź</div>
+                </a>
+                <a target="blank" href="" class="sh-side-options-item sh-accent-color">
+                    <i class="icon-mail-alt"></i>
+                    <div class="sh-side-options-hover">Pomoc</div>
+                </a>
+                <a target="blank" href="" class="sh-side-options-item sh-accent-color">
+                    <i class="icon-bell"></i>
+                    <div class="sh-side-options-hover" style="white-space: nowrap;">Powiadomienia</div>
+                </a>
+            </div>
+	    </div>
+        <div id="scroll">
+            <span></span>
+            <span></span>
+		</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="reply-to" content="sz.k988@interia.pl,szymon.kotarba988@gmail.com"/>
+    <meta http-equiv="creation-date" content="21-01-2019"/>
+    <meta name="author" content="Szymon Kotarba"/>
+    <meta name="keywords" content="nowe technologie, technologie, gry, bezpieczeństwo, biznes, podróżowanie"/>
+    <meta name="description" content="WebTech strona informująca milionów Polaków o najnowszych wydarzeniach ze strony technologii, gier, bezpieczeństwa, nauki, biznesu oraz podróżowania."/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWeb | Rozszerz swoje możliwości</title>
+    <link rel="Stylesheet" type="text/css" href="style.css"/>
+    <link rel="Stylesheet" type="text/css" href="media.css"/>
+    <link rel="Stylesheet" type="text/css" href="css/fontello.css"/>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/page.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/effect.js"></script>
+    <link rel="Shortcut icon" href="img/icon-logo.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet"/>
+</head>
+<body>
+    <div id="page">
+        <div id="wrapper">
+            <div id="nav-secondary" class="part-slim-nav">
+                <header class="full">
+                    <div class="part">
+                        <div class="header-wrapper slim-cnt">
+                            <div class="header-cnt">
+                                <div class="banner">
+                                    <a href="index.html" rel="home">
+                                        <img src="img/logo.png" alt="Logo" width="150px"/> 
+                                    </a>
+                                </div>
+                                <div class="site-navigation">
+                                    <nav>
+                                        <ul class="navigation">
+                                            <li class="button"><a href="index.html" rel="home">Home</a></li>
+                                            <li class="button"><a href="tech.html" rel="tech">Tech</a></li>
+                                            <li class="button"><a href="game.html" rel="game">Gry</a></li>
+                                            <li class="button"><a href="security.html" rel="security">Bezpieczeństwo</a></li>
+                                            <li class="button"><a href="science.html" rel="science">Nauka</a></li>
+                                            <li class="button"><a href="buisness.html" rel="buisness">Biznes</a></li>
+                                            <li class="button"><a href="travel.html" rel="travel">Podróżowanie</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div id="nav-main">
+                <header class="full">
+                    <div class="part">
+                        <div class="header-wrapper">
+                            <div class="header-cnt">
+                                <div class="banner">
+                                    <a href="index.html" rel="home">
+                                        <img src="img/logo.png" alt="Logo" width="200px"/> 
+                                    </a>
+                                </div>
+                                <div class="site-navigation">
+                                    <nav>
+                                        <ul class="navigation">
+                                            <li class="button"><a href="index.html" rel="home">Home</a></li>
+                                            <li class="button"><a href="tech.html" rel="tech">Tech</a></li>
+                                            <li class="button"><a href="game.html" rel="game">Gry</a></li>
+                                            <li class="button"><a href="security.html" rel="security">Bezpieczeństwo</a></li>
+                                            <li class="button"><a href="science.html" rel="science">Nauka</a></li>
+                                            <li class="button"><a href="buisness.html" rel="buisness">Biznes</a></li>
+                                            <li class="button"><a href="travel.html" rel="travel">Podróżowanie</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div id="header-icon-area">
+                                    <div id="header-icon-search">
+                                        <i class="icon-search transition-color"></i>
+                                        <div id="search-wrapper">
+                                            <form action="" method="POST" name="myform">
+                                                <div class="input-group stylish-input-group">
+                                                    <input type="text" name="search" placeholder="Szukaj tutaj..." autocomplete="off">
+                                                    <div class="search-close">
+                                                        <i class="icon-cancel"></i>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>		
+                                    <div id="header-icon-seperator">|</div>
+                                    <div id="header-icon-share">
+                                        <i class="icon-share"></i>
+                                        <div id="social-media-tophead-wapper">
+                                            <div id="arrow-cnt">
+                                                <div class="tipsy-arrow tipsy-arrow-n"></div>
+                                            </div>
+                                            <div id="tophead-social-wrapper">
+                                                <ul class="bg-nav tophead-social">
+                                                    <li><a target="_blank" href="https://www.facebook.com/" class="facebook-color-social border"><i class="icon-facebook"></i></a></li>
+                                                    <li><a target="_blank" href="https://plus.google.com" class="gplus-color-social border"><i class="icon-gplus"></i></a></li>
+                                                    <li><a target="_blank" href="https://twitter.com/" class="twitter-color-social border"><i class="icon-twitter"></i></a></li>
+                                                    <li><a target="_blank" href="https://www.instagram.com/" class="instagram-color-social border"><i class="icon-instagram"></i></a></li>
+                                                    <li><a target="_blank" href="https://youtube.com" class="youtube-color-social"><i class="icon-youtube"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>	
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div id="second-part">
+                <div id="container">
+                    <ul id="news-info-list">
+                        <li><i class="icon-calendar"></i><span id="current_date"></span></li>
+                        <li><i class="icon-clock"></i>Ostatnia aktualizacja: Lut 08, 2019 | 20:00</li>
+                        <li><i class="icon-map"></i>Polska</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="header-category">
+                <span id="cnt-header-category">
+                    <span>Bezpieczeństwo</span>
+                    <span><a href="index.html">Home</a><i class="icon-right-open-mini"></i>Bezpieczeństwo</span>
+                </span>
+            </div>
+            <div class="content-wrapper" class="content-wrapper-whole">
+                <div class="cnt-category-article">
+                    <div class="left-cnt-wrapper">
+                        <div class="category-article-cnt">
+                            <section class="all">
+                                <div class="category-article-wrapper">
+                                    <div id="main-rest-category">
+                                        <div class="post-wrap-category">
+                                            <article class="all">
+                                                <div class="article">
+                                                    <div class="cnt-outher-article-main">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher article-wrapper-img">
+                                                            <img src="img/imgix-391813-unsplash_leq2un.jpg" class="article-img"/>
+                                                        </div>
+                                                        <div class="subtitle-article hudge-space">
+                                                            <div class="category-article">
+                                                                <a href="" rel="game-article" class="security-category">
+                                                                    Bezpieczeństwo
+                                                                </a>
+                                                            </div>
+                                                            <h3 class="title-article-hudge">
+                                                                Cyberprzestępcy opublikowali 2,2 mld wykradzionych haseł
+                                                            </h3>
+                                                            <div class="author-date-cnt-article">
+                                                                <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                            </div>
+                                                        </div>
+                                                    </div>   
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <div class="rest-box-article-cnt flex-row">
+                                        <div class="main-article-tech space-article">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/97ff75f3f3c4041d4cfdfd099814469a16f2628a.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Oto główne cele cyberprzestępców w 2019 roku</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/digital-marketing.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Jak informacje o Tobie są przetwarzane w ramach reklam online?</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <div class="rest-box-article-cnt flex-row">
+                                        <div class="main-article-tech space-article">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/facebook-2-1180x541.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Szefostwo Facebooka przekonuje, że serwis jest bezpieczny</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/XdwktkuTURBXy81Njc3OWZmOS0wODEzLTQy.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Macierewicz przez godzinę mówił o cyberbezpieczeństwie. </a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <div id="main-rest-category">
+                                        <div class="post-wrap-category">
+                                            <article class="all">
+                                                <div class="article">
+                                                    <div class="cnt-outher-article-main">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher article-wrapper-img">
+                                                            <img src="img/otomoto_na_pasach.jpg" class="article-img"/>
+                                                        </div>
+                                                        <div class="subtitle-article hudge-space">
+                                                            <div class="category-article">
+                                                                <a href="" rel="game-article" class="security-category">
+                                                                    Bezpieczeństwo
+                                                                </a>
+                                                            </div>
+                                                            <h3 class="title-article-hudge">
+                                                                Uwaga sprzedający samochody, obserwujemy falę ataków na klientów OTOMOTO.PL
+                                                            </h3>
+                                                            <div class="author-date-cnt-article">
+                                                                <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                            </div>
+                                                        </div>
+                                                    </div>   
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="right-cnt-wrapper">
+                        <div id="new-article-collateral">
+                            <section class="all">
+                               <div class="article-title new-title">
+                                    <h2>
+                                        <a href="" rel=""><span class="icon-fire"></span> Najnowsze</a>
+                                        <span class="titleinner"></span>
+                                    </h2>
+                                </div>
+                                <div id="new-article-wrapper-collateral">
+                                    <div id="outher-new-article-collateral">
+                                        <div class="post-wrap-new-outher">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/61529_fbwm_cw_07.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="security-category">
+                                                            Bezpieczeństwo
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Jak Facebook podsłuchuje nastolatków za 20$ msc</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-new-outher">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/raspberry-pi-switch.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="security-category">
+                                                            Bezpieczeństwo
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Tajemnicze Raspberry Pi znalezione w szafie ze switchami</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-new-outher">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/lake-773-adress-email.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="security-category">
+                                                            Bezpieczeństwo
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Do sieci wyciekło 773 milionów adresów e-mail</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-new-outher">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/2019-01-29T010807Z_1_LYNXNPEF0S024_RTROPTP_3_CHINA-APPLE_original.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="security-category">
+                                                            Bezpieczeństwo
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Błąd Apple pozwalał na podsłuchiwanie drugiej osoby zanim odbierze połączenie</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div id="popular-article-collateral">
+                            <section class="all">
+                                <div class="article-title popular-title">
+                                    <h2>
+                                        <a href="" rel=""><span class="icon-signal-1"></span> Popularne</a>
+                                        <span class="titleinner"></span>
+                                    </h2>
+                                </div>
+                                <div id="popular-article-wrapper-collateral">
+                                    <div id="outher-popular-article-collateral">
+                                        <div class="post-wrap-popular-outher-collateral">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/localization-user.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="security-category">
+                                                            Bezpieczeństwo
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Dane geolokalizacyjne to prawdziwa żyła złota dla firm.</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-popular-outher-collateral">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/franck-v-795970-unsplash_ubu6tr.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="security-category">
+                                                            Bezpieczeństwo
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Bezpieczeństwo współpracy człowieka z robotem</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-popular-outher-collateral">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/lake-interia-and-o2.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="security-category">
+                                                            Bezpieczeństwo
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Jak Interia i o2 rozesłały swoim użytkownikom reklamę sklepu złodziei</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="post-wrap-popular-outher-collateral">
+                                            <article class="all flex-row">
+                                                <div class="article different-second">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/baron-narkotykowy-złapany.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single subtitle-different">
+                                                    <div class="category-article">
+                                                        <a href="" rel="game-article" class="security-category">
+                                                            Bezpieczeństwo
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="title-article entry-title">
+                                                        <a href="" rel="game-article" class="default-title-single">Największy narkotykowy baron złapany dzięki 1 osobie</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div id="aside-cnt" class="no-sticky">
+                            <aside class="all flex-column">
+                                <div id="social-media-cnt" class="article-title aside-title">
+                                    <h2>
+                                        <a href="" rel=""><span class="icon-share"></span> Social media</a>
+                                        <span class="titleinner"></span>
+                                    </h2>
+                                </div>
+                                <div id="social-media-follow-cnt">
+                                    <div class="social-media facebook-color">
+                                        <a href="https://www.facebook.com/" target="_blank" rel="facebook">
+                                            <div class="sh-widget-connected-title">
+						                        <i class="icon-facebook"></i><span class="description-follow">Like</span>
+                                            </div>
+                                            <div class="sh-widget-connected-count">
+						                        <span>5967</span>
+					                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="social-media gplus-color">
+                                        <a href="https://plus.google.com" rel="gplus">
+                                            <div class="sh-widget-connected-title">
+						                        <i class="icon-gplus"></i><span class="description-follow">Follow</span>
+                                            </div>
+                                            <div class="sh-widget-connected-count">
+						                        <span>512</span>
+					                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="social-media twitter-color">
+                                        <a href="https://twitter.com/" rel="twitter">
+                                            <div class="sh-widget-connected-title">
+						                        <i class="icon-twitter"></i><span class="description-follow">Follow</span>
+                                            </div>
+                                            <div class="sh-widget-connected-count">
+						                        <span>1024</span>
+					                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="social-media instagram-color">
+                                        <a href="https://www.instagram.com/" rel="instargram">
+                                            <div class="sh-widget-connected-title">
+						                        <i class="icon-instagram"></i><span class="description-follow">Follow</span>
+                                            </div>
+                                            <div class="sh-widget-connected-count">
+						                        <span>2289</span>
+					                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="social-media youtube-color">
+                                        <a href="https://youtube.com" rel="youtube">
+                                            <div class="sh-widget-connected-title">
+						                        <i class="icon-youtube"></i><span class="description-follow">Subscribe</span>
+                                            </div>
+                                            <div class="sh-widget-connected-count">
+						                        <span>10k</span>
+					                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content-wrapper-second">
+                <div class="cnt-category-article">
+                    <div class="cnt-category-article">
+                        <div class="category-article-cnt">
+                            <section class="all flex-column-center">
+                                <div class="category-article-wrapper">
+                                    <div class="rest-box-article-cnt flex-row">
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/jefferson-santos-450403-unsplash_ihnbd3.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Galeria SMS-ów o “dopłacie” przez fałszywego pośrednika w płatnościach</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/t-mobile-storefront-1200xx4000-2250-0-227.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Pożar i problemy T-Mobile</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/Google-Forms-logo1.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Czy dasz się nabrać na phishing? Świetny quiz od Google</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <div class="rest-box-article-cnt flex-row">
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/rawpixel-769308-unsplash_q5bvoo.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Złośliwe aplikacje na Androida korzystały z sensorów ruchu</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/z23289025V,Wiza-do-Stanow-Zjednoczonych.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Wyciek ponad 3000 skanów paszportów Polaków starających się o wizę</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                        <div class="main-article-tech space-article-outher">
+                                            <article class="all">
+                                                <div class="article different">
+                                                    <div class="cnt-outher-article">
+                                                        <a href="" rel="game-article" class="web-article-box"></a>
+                                                        <div class="slider-outher-single article-wrapper-img">
+                                                            <img src="img/Ancap100trieu2_pp_429.jpg" class="article-img"/>
+                                                        </div>
+                                                    </div>   
+                                                </div>
+                                                <div class="subtitle-article-single">
+                                                    <h3 class="title-article-avg">
+                                                        <a href="" rel="game-article" class="tech-title-single">Uwaga na złośliwe kody QR na bankomatach, których nikt nie widział</a>
+                                                    </h3>
+                                                    <div class="author-date-cnt-article">
+                                                        <span class="icon-user"></span> Szymon Kotarba <span class="string">| </span><span class="icon-comment-empty"></span> 5 <span class="string">| </span><span class="icon-clock"></span>Luty 08, 2019
+                                                    </div>
+                                                </div>                                    
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="show-more">Pokaż więcej</div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="all flex-column center-footer-cnt">
+                <div id="footer-cnt">
+                    <div id="left-footer-cnt">
+                        <div id="logo-fotter-wrapper">
+                            <a href="index.html" rel="home">
+                                <img src="img/logo.png" alt="Logo" width="320px"/> 
+                            </a>
+                        </div>
+                        <div id="footer-bottom-social">
+                            <ul class="tophead-social">
+                                <li><a target="_blank" href="https://www.facebook.com/" class="facebook-color-social"><i class="icon-facebook"></i></a></li>
+                                <li><a target="_blank" href="https://plus.google.com" class="gplus-color-social"><i class="icon-gplus"></i></a></li>
+                                <li><a target="_blank" href="https://twitter.com/" class="twitter-color-social"><i class="icon-twitter"></i></a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/" class="instagram-color-social"><i class="icon-instagram"></i></a></li>
+                                <li><a target="_blank" href="https://youtube.com" class="youtube-color-social"><i class="icon-youtube"></i></a></li>
+                            </ul>
+                            <p id="copyright">Strona zaprojektowana i opracowana przez <span id="author">Szymon Kotarba</span></p>
+						</div>
+                    </div>
+                    <div id="center-footer-cnt">
+                        <h4 class="widget-title"><span class="inner-arrow">Kategorie</span></h4>
+                        <div class="nav-category">
+                            <ul class="aside-navigator-cetegory margin-cnt">
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Technologie</span><span class="number-artical">(15)</span></a></li>
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Gry</span><span class="number-artical">(12)</span></a></li>
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Bezpieczeństwo</span><span class="number-artical">(10)</span></a></li>
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Nauka</span><span class="number-artical">(8)</span></a></li>
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Biznes</span><span class="number-artical">(5)</span></a></li>
+                                <li class="category"><a href="" rel="" class="default-title-single"><span class="name-category-artical "><i class="icon-right-open-mini"></i>Podróżowanie</span><span class="number-artical">(6)</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="right-footer-cnt">
+                        <h4 class="widget-title"><span class="inner-arrow">Newsletter</span></h4>
+                        <p id="newsletter">Zapisz się do naszego newslettera, aby być na bieżąco</p>
+                        <i class="icon-mail-alt"></i>
+                        <div class="input-group stylish-input-group">
+                            <form action="" method="POST" name="myform" class="form-wrapper">
+                                <input type="email" name="email" placeholder="Twój adres email" required>
+                                <span class="input-group-addon">
+                                    <button type="submit">
+                                    <i class="icon-paper-plane"></i>
+                                    </button>  
+                                </span>
+                            </form>
+                        </div>
+                        <p id="newsletter-subtitle">* Dołącz do listy Newslettera, by na e-mail otrzymywać starannie wyselekcjonowane materiały informacyjne.</p>
+                    </div>
+                </div>
+                <div id="description-footer-copyright">
+                    <p>© COPYRIGHT 2018, WSZYSTKIE PRAWA ZASTRZEŻONE</p>
+                </div>
+            </footer>
+        </div>
+        <div class="sh-side-demos">
+            <div class="sh-side-demos-buttons">
+                <span class="sh-side-options-item sh-accent-color">
+                    <i class="icon-news"></i>
+                    <div class="sh-side-options-hover">Ciemny motyw</div>
+                </span>
+                <a target="blank" href="" class="sh-side-options-item sh-accent-color">
+                    <i class="icon-wechat"></i>
+                    <div class="sh-side-options-hover">Pytanie / Odpowiedź</div>
+                </a>
+                <a target="blank" href="" class="sh-side-options-item sh-accent-color">
+                    <i class="icon-mail-alt"></i>
+                    <div class="sh-side-options-hover">Pomoc</div>
+                </a>
+                <a target="blank" href="" class="sh-side-options-item sh-accent-color">
+                    <i class="icon-bell"></i>
+                    <div class="sh-side-options-hover" style="white-space: nowrap;">Powiadomienia</div>
+                </a>
+            </div>
+	    </div>
+        <div id="scroll">
+            <span></span>
+            <span></span>
+		</div>
+    </div>
+</body>
+</html>
